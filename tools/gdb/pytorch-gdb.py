@@ -1,5 +1,4 @@
 import textwrap
-from typing import Any
 
 import gdb  # type: ignore[import]
 import types

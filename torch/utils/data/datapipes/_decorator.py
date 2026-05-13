@@ -2,7 +2,7 @@
 import inspect
 from collections.abc import Callable
 from functools import wraps
-from typing import Any, get_type_hints
+from typing import get_type_hints
 
 from torch.utils.data.datapipes._typing import _DataPipeMeta
 from torch.utils.data.datapipes.datapipe import IterDataPipe, MapDataPipe

@@ -50,7 +50,6 @@ from ..utils import (
     unique,
 )
 from ..virtualized import (
-import types
     NullHandler,
     ops,
     OpsHandler,
@@ -62,6 +61,7 @@ import types
 
 
 if TYPE_CHECKING:
+    import types
     from collections.abc import Callable, Iterator, MutableMapping, Sequence
 
     from torch.fx import GraphModule

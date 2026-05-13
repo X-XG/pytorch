@@ -1,5 +1,6 @@
 # Owner(s): ["oncall: export"]
 
+import types
 import unittest
 from collections import OrderedDict
 from typing import Any
@@ -12,7 +13,6 @@ from torch.export import ExportedProgram
 from torch.testing._internal.common_quantized import override_quantized_engine
 from torch.testing._internal.common_utils import IS_WINDOWS, run_tests, xfailIfS390X
 from torch.testing._internal.torchbind_impls import (
-import types
     _empty_tensor_queue,
     init_torchbind_implementations,
 )

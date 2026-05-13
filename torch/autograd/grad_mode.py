@@ -1,9 +1,8 @@
 # mypy: allow-untyped-defs
-from typing import Any
+import types
 
 import torch
 from torch.utils._contextlib import (
-import types
     _DecoratorContextManager,
     _NoParamDecoratorContextManager,
     F,

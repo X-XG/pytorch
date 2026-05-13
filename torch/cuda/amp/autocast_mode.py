@@ -1,7 +1,6 @@
 # mypy: allow-untyped-defs
 import functools
 import sys
-from typing import Any
 from typing_extensions import deprecated
 
 import torch

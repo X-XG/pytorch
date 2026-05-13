@@ -24,6 +24,7 @@ from torch._utils import _dummy_type, _LazySeedTracker
 
 
 if TYPE_CHECKING:
+    import types
     from collections.abc import Callable
 
     from torch.types import Device
@@ -900,7 +901,6 @@ from .memory import (
     XPUPluggableAllocator,
 )
 from .random import (
-import types
     get_rng_state,
     get_rng_state_all,
     initial_seed,

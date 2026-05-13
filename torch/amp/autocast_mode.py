@@ -2,7 +2,6 @@
 import collections
 import functools
 import warnings
-from typing import Any
 
 import torch
 from torch.types import _dtype
